@@ -1,0 +1,65 @@
+# Node.js
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build Artifacts
+dist/
+build/
+out/
+.next/
+.nuxt/
+coverage/
+.cache/
+*.tsbuildinfo
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# OS Files
+Thumbs.db
+.DS_Store
+*.log
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Testing
+.nyc_output/
+.mocha_cache/
+.pytest_cache/
+__pycache__/
+
+# Miscellaneous
+.turbo/
+dist-ssr/
+*.local
