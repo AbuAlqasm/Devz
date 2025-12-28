@@ -1,0 +1,24 @@
+{
+  "name": "devz",
+  "version": "1.0.0",
+  "description": "A monorepo for the devz project",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install": "yarn install",
+    "dev": "yarn workspaces run dev",
+    "build": "yarn workspaces run build",
+    "test": "yarn workspaces run test",
+    "lint": "yarn workspaces run lint",
+    "frontend": "yarn workspace frontend",
+    "backend": "yarn workspace backend"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0",
+    "yarn": ">=3.0.0"
+  }
+}
